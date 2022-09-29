@@ -29,7 +29,7 @@ li a{
     border: 2px solid white;
     float: left;
     vertical-align: center;
-    margin: 0px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
 }
 
 .titulo {
@@ -37,7 +37,6 @@ li a{
     margin: 0px 20px 50px 20px;
     padding: 10px 30px 30px 30px;
     vertical-align: center;
-
 }
 
 .titulo h1 {
@@ -45,15 +44,14 @@ li a{
     font-weight: bolder;
     text-shadow: 2px 2px 2px black ;
     vertical-align: center;
-
 }
 
 .titulo h2 {
     font-size: 20px;
     font-style: oblique;
     text-shadow: 1px 1px 1px darkgray;
-    vertical-align: center;}
-
+    vertical-align: center;
+}
 
 .bloco {
     background-color: rgba(79, 78, 92, 0.884);
@@ -63,6 +61,41 @@ li a{
     padding: 10px 30px 30px 30px;
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
   }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:rgb(70, 62, 62);
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+h1{ 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 20px 30px;
+    cursor: pointer;
+    background-color:rgb(70, 62, 62);
+    justify-content: center;
+    border-radius: 10px;
+  }
+
 
 footer {
     background-color: black;
